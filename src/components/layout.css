@@ -2,6 +2,10 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  --screen-width-sm: 400px;
+  --screen-width-md: 600px;
+  --screen-width-lg: 900px;
+  --screen-width-xl: 1200px;
 }
 body {
   margin: 0;
