@@ -1,9 +1,11 @@
 ---
 path: "/bash"
 date: "2019-03-07"
+title: "bash"
+keywords: "bash"
 ---
 
-#Bash
+#bash
 
 ```bash
 sudo kill `sudo lsof -t -i:8080`

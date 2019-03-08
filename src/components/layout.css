@@ -6,6 +6,7 @@ html {
   --screen-width-md: 600px;
   --screen-width-lg: 900px;
   --screen-width-xl: 1200px;
+  --teal-lighter: #a0f0ed;
 }
 body {
   margin: 0;
