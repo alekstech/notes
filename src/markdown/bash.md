@@ -1,8 +1,8 @@
 ---
-path: "/bash"
+path: "/bash-snippets"
 date: "2019-03-07"
 title: "bash"
-keywords: "bash"
+keywords: "bash snippets"
 ---
 
 #bash

@@ -18,7 +18,7 @@ export default function Template({
       />
       <div
         dangerouslySetInnerHTML={{ __html: html }}
-        className="lg:max-w-md md:max-w-sm max-w-full p-4"
+        className="lg:max-w-md md:max-w-sm max-w-full p-4 font-serif"
       />
       <time
         className="pb-4"

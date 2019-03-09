@@ -43,30 +43,30 @@ class Header extends Component {
               </div>
               <div className="hidden lg:block mx-2">
                 <a
-                  href="https://aleks.tech/portfolio"
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
+                  href="https://aleks.tech/projects"
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
                   projects
                 </a>
                 <a
                   href="https://aleks.tech/skills" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
                   skills
                 </a>
                 <a
                   href="https://aleks.tech/tech" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
                 >
                   tech
                 </a>
                 <Link
                   to="/"
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4 font-bold"
                 >
                   notes
                 </Link>
                 <a
                   href="https://aleks.tech/contact" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                   contact
                 </a>
               </div>
@@ -75,28 +75,28 @@ class Header extends Component {
               <div className="lg:hidden w-full h-full max-h-screen flex flex-col">
                 <div className="flex flex-col items-center overflow-y-auto bg-teal-lighter ">
                   <a
-                    href="https://aleks.tech/portfolio"
-                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    href="https://aleks.tech/projects"
+                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     projects
                   </a>
                   <a
                     href="https://aleks.tech/skills" 
-                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     skills
                   </a>
                   <a
                     href="https://aleks.tech/tech" 
-                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     tech
                   </a>
                   <Link
                     to="/"
-                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none font-bold">
                     notes
                   </Link>
                   <a
                     href="https://aleks.tech/contact" 
-                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     contact
                   </a>
                 </div>
