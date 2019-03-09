@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Wrapper>
-    <SEO title="Notes" keywords={[`aleks sobieraj`, `blog`, `portfolio`, `web developer`, `notes`, `reference`, `react`, `vue`, `javascript`, `html`, `css`]} />
+    <SEO title="notes" keywords={[`aleks sobieraj`, `blog`, `portfolio`, `web developer`, `notes`, `reference`, `react`, `vue`, `javascript`, `html`, `css`]} />
     <nav className="w-full lg:max-w-md md:max-w-sm p-8">
       <Link
         className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
