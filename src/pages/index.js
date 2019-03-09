@@ -9,19 +9,19 @@ const IndexPage = () => (
     <SEO title="Notes" keywords={[`aleks sobieraj`, `blog`, `portfolio`, `web developer`, `notes`, `reference`, `react`, `vue`, `javascript`, `html`, `css`]} />
     <nav className="w-full lg:max-w-md md:max-w-sm p-8">
       <Link
-        className="my-2 py-2 block no-underline text-black"
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
         to="/bash-snippets/"
       >
         bash snippets
       </Link>
       <Link
-        className="my-2 py-2 block no-underline text-black"
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
         to="/git-snippets/"
       >
         git snippets
       </Link>
       <Link
-        className="my-2 py-2 block no-underline text-black"
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
         to="/diffie–hellman/"
       >
         Diffie–Hellman
