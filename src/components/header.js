@@ -1,16 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, {Component} from "react"
-import {NavbarContext} from '@/components/wrapper';
+import {WrapperContext} from '@/components/wrapper';
 import ALogo from '@/images/ALogo.png';
 
 class Header extends Component {
   render () {
     return (
-      <NavbarContext.Consumer>
+      <WrapperContext.Consumer>
         {({navbarOpen, toggleNavbar}) =>
           <header 
-            className={"fixed pin-t z-10 w-screen flex flex-col bg-transparent " + (navbarOpen ? 'h-screen' : '')}
+            className={"fixed pin-t z-10 w-full flex flex-col bg-transparent " + (navbarOpen ? 'h-screen' : '')}
             onClick={toggleNavbar}
           >
             <nav
@@ -44,29 +44,29 @@ class Header extends Component {
               <div className="hidden lg:block mx-2">
                 <a
                   href="https://aleks.tech/portfolio"
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
                   projects
                 </a>
                 <a
                   href="https://aleks.tech/skills" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
                   skills
                 </a>
                 <a
                   href="https://aleks.tech/tech" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
                 >
                   tech
                 </a>
                 <Link
                   to="/"
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4"
                 >
                   notes
                 </Link>
                 <a
                   href="https://aleks.tech/contact" 
-                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                  className="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black font-sans hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                   contact
                 </a>
               </div>
@@ -76,27 +76,27 @@ class Header extends Component {
                 <div className="flex flex-col items-center overflow-y-auto bg-teal-lighter ">
                   <a
                     href="https://aleks.tech/portfolio"
-                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     projects
                   </a>
                   <a
                     href="https://aleks.tech/skills" 
-                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     skills
                   </a>
                   <a
                     href="https://aleks.tech/tech" 
-                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     tech
                   </a>
                   <Link
                     to="/"
-                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     notes
                   </Link>
                   <a
                     href="https://aleks.tech/contact" 
-                    className="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+                    className="font-sans no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
                     contact
                   </a>
                 </div>
@@ -106,7 +106,7 @@ class Header extends Component {
           </header>
         }
 
-      </NavbarContext.Consumer>
+      </WrapperContext.Consumer>
     )
   }
 }

@@ -10,7 +10,9 @@ html {
   --screen-width-md: 600px;
   --screen-width-lg: 900px;
   --screen-width-xl: 1200px;
+  --teal-light: #64d5ca;
   --teal-lighter: #a0f0ed;
+  --teal-lightest: #e8fffe;
 }
 body {
   margin: 0;

@@ -12,7 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./wrapper.css"
 
-export const NavbarContext = React.createContext('peekaboo');
+export const WrapperContext = React.createContext();
 
 class Wrapper extends Component {
   constructor(props) {
@@ -45,12 +45,12 @@ class Wrapper extends Component {
           `}
           render={data => (
             <div className="h-screen flex flex-col">
-              <NavbarContext.Provider value={this.state}>
+              <WrapperContext.Provider value={this.state}>
                 <Header siteTitle={data.site.siteMetadata.title} />
-              </NavbarContext.Provider>
-              <main className="h-full mt-16 overflow-y-auto scrolling-touch flex flex-col items-center">
-                {this.props.children}
-              </main>
+                <main className="h-full mt-16 flex flex-col items-center focus:outline-none" tabIndex="-1">
+                  {this.props.children}
+                </main>
+              </WrapperContext.Provider>
             </div>
           )}
         />
