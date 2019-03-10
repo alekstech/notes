@@ -2,7 +2,7 @@
 path: "/git-snippets"
 date: "2019-03-08"
 title: "git"
-keywords: "git snippets"
+keywords: "git, snippets"
 ---
 
 #git

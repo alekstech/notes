@@ -26,6 +26,12 @@ const IndexPage = () => (
       >
         Diffie–Hellman
       </Link>
+      <Link
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
+        to="/chrome/"
+      >
+        Chrome
+      </Link>
     </nav>
   </Wrapper>
 )

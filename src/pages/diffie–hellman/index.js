@@ -7,7 +7,7 @@ class DiffieHelman extends Component {
   state = {
     date: '2019-03-08',
     title: 'Diffie-Hellman',
-    keywords: [`diffie`, `hellman`],
+    keywords: 'diffie, hellman',
     shared: 1,
     diffie: 15,
     hellman: 10
