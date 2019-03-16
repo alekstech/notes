@@ -1,5 +1,5 @@
 ---
-path: "/chrome"
+path: "/chrome-snippets"
 date: "2019-03-09"
 title: "Chrome"
 keywords: "Chrome,dev tools"
