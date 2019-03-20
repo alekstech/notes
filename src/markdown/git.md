@@ -73,3 +73,15 @@ convert to LF on check in (Mac / Linux)
 gitgit config --global core.autocrlf true
 ```
 convert to CRLF on check out (Windows)
+
+
+```
+GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
+```
+change date of last commit to current date
+
+
+```
+GIT_COMMITTER_DATE="Mon 20 Aug 2018 20:19:19 BST" git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 BST"
+```
+change date of last commit to Mon 20 Aug 2018 20:19:19 BST
