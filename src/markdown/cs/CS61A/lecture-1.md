@@ -1,16 +1,16 @@
 ---
-path: "/cs/cs-61A/lecture-1"
+path: "/CS61A/lecture-1"
 date: "2019-04-21"
 title: "Functional programming 1"
 keywords: "scheme, STk, functional programming"
 ---
 
-#[Functional programming](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
-Computer Science 61A, lecture 1
-[Course notes](http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf)
+#Functional programming
+[Computer Science 61A](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8), lecture 1
+[Lecturer's course notes](http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf)
 
 ##[STk](http://inst.eecs.berkeley.edu/~scheme/)
-Implementation of the Scheme programming language
+- implementation of the Scheme programming language
 
 
 ```

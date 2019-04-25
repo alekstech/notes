@@ -38,6 +38,12 @@ const IndexPage = () => (
       >
         CSS
       </Link>
+      <Link
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
+        to="/CS61A/"
+      >
+        CS61A
+      </Link>
     </nav>
   </Wrapper>
 )
