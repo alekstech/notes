@@ -34,9 +34,15 @@ const IndexPage = () => (
       </Link>
       <Link
         className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
-        to="/css-snippets/"
+        to="/CSS-snippets/"
       >
-        CSS
+        CSS snippets
+      </Link>
+      <Link
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
+        to="/CSS-architectures/"
+      >
+        CSS architectures
       </Link>
       <Link
         className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
