@@ -1,11 +1,11 @@
 ---
-path: "/CSS-architectures"
+path: "/organizing-css-in-react-and-vue"
 date: "2019-04-28"
-title: "CSS"
+title: "Organizing CSS in React and vue"
 keywords: "CSS, architecture"
 ---
 
-# Organizing your CSS in React and Vue
+# Organizing CSS in React and Vue
 
 I've seen many logically organized front-end projects. When you combine several reusable components and a few page layouts with a router, a data store, an i18n plugin, authorization logic, and some API services, things start to get complex. Yet, orienting yourself in a repository you haven't seen before isn't too complicated. Until you need to understand how it's styled.
 
@@ -58,7 +58,6 @@ This is similar to writing inline syles on your element and can take up space in
 becomes
 ```
 <div class="card"> ... </div>
-
 .card {
   display: flex;
   flex-direction: column;
