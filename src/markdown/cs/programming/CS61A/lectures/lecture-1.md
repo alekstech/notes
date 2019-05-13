@@ -1,5 +1,5 @@
 ---
-path: "/CS61A/lecture-1"
+path: "/cs/programming/CS61A/lecture-1"
 date: "2019-04-21"
 title: "Functional programming 1"
 keywords: "scheme, STk, functional programming"

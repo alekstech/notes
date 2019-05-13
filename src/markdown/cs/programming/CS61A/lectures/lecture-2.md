@@ -1,5 +1,5 @@
 ---
-path: "/CS61A/lecture-2"
+path: "/cs/programming/CS61A/lecture-2"
 date: "2019-04-24"
 title: "Functional programming 1"
 keywords: "fizz buzz,conditionals,applicative order,normal order"
@@ -23,6 +23,9 @@ These are the same function but different procedures. A procedure is the sequenc
 
 A function that depends on an external variable is not a function. It's a procedure, but not a function.
 
+What a function takes in, for example words or numbers, is the function's **domain**.
+What the function returns, for example words or numbers, is its **range**.
+
 ##Buzz
 ```
 (define (buzz n)
@@ -30,7 +33,7 @@ A function that depends on an external variable is not a function. It's a proced
   ((member? 7 n) ’buzz)
   (else n)))
 ```
-Prints buzz if the argument is a number divisible by 7 or a number with the digit 7. Lines 2-4 are *clauses*. Else is a *keyword*. *cond* is a special form. Each clause contains a test and an action. The action is typically a procedure. `else` is only a special word inside `cond` and it basically evaluates to true. Using `else` prevents from non-standard returns encoded in different language implementations.
+Prints buzz if the argument is a number divisible by 7 or a number with the digit 7. Lines 2-4 are **clauses**. Else is a **keyword**. **cond** is a special form. Each clause contains a test and an action. The action is typically a procedure. `else` is only a special word inside `cond` and it basically evaluates to true. Using `else` prevents from non-standard returns encoded in different language implementations.
 
 ##Layers of abstraction
 Application programs

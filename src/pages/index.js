@@ -46,9 +46,9 @@ const IndexPage = () => (
       </Link>
       <Link
         className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
-        to="/CS61A/"
+        to="/cs/syllabus"
       >
-        CS61A
+        CS
       </Link>
     </nav>
   </Wrapper>
