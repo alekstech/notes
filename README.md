@@ -3,3 +3,6 @@
 - React
 - Gatsby
 - GraphQL
+
+To do:
+- remove newline from copied code snippet
