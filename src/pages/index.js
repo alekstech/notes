@@ -50,6 +50,12 @@ const IndexPage = () => (
       >
         CS
       </Link>
+      <Link
+        className="my-4 py-2 pl-2 block no-underline text-black border-b border-teal-lighter rounded-b-lg"
+        to="/common-attacks"
+      >
+        Common frontend attacks
+      </Link>
     </nav>
   </Wrapper>
 )
