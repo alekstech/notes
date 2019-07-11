@@ -1,5 +1,5 @@
 ---
-path: "/bash-snippets"
+path: "/common-attacks"
 date: "2019-07-10"
 title: "common attacks"
 keywords: "secutity, attacks, frontend"

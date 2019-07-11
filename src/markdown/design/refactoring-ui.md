@@ -1,3 +1,10 @@
+---
+path: "/ui-architecture-considerations"
+date: "2019-07-11"
+title: "UI design architecture"
+keywords: "css, ui, principles, architecture"
+---
+
 Systems for:
 • Font size - rems or px, not ems
 • Font weight
@@ -32,7 +39,6 @@ Systems for:
 • Opacity
 
 
-
 25% intervals:
 4 (16 x 0.25)
 8 (16 x 0.5)
@@ -64,7 +70,3 @@ Colors:
 8-10 greys
 5-10 shades of a primary color
 a few accent colors, in 5-10 shades each
-
-
-
-
