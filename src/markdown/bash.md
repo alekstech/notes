@@ -41,3 +41,8 @@ ssh into server and start a bash session
 echo "$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"
 ```
 get absolute path to current dir
+
+```bash
+sed -i 's/\r$//' myfile.txt
+```
+remove `\r` from end of all lines in myfile.txt. `-i` means the file is edited in-place. [source](https://stackoverflow.com/a/32912867/6108651)
