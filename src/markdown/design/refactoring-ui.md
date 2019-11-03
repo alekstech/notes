@@ -6,21 +6,21 @@ keywords: "css, ui, principles, architecture"
 ---
 
 Systems for:
-• Font size - rems or px, not ems
-• Font weight
+* Font size - rems or px, not ems
+* Font weight
   A normal font weight (400 or 500 depending on the font) for most text
-  • A heavier font weight (600 or 700) for text you want to emphasize
-• Line height
-• Color
+  * A heavier font weight (600 or 700) for text you want to emphasize
+* Line height
+* Color
   A dark color for primary content (like the headline of an article)
-  • A grey for secondary content (like the date an article was published)
-  • A lighter grey for tertiary content (maybe the copyright notice in a
+  * A grey for secondary content (like the date an article was published)
+  * A lighter grey for tertiary content (maybe the copyright notice in a
   footer)
-• Margin
-• Padding
-• Width
-• Height
-• Box shadows
+* Margin
+* Padding
+* Width
+* Height
+* Box shadows
   0 1px 3px hsla(0, 0%, .12)
   0 1px 2px hsla(0, 0%, .24)
 
@@ -34,9 +34,9 @@ Systems for:
   0 5px 10px hsla(0, 0%, .5)
 
   0 20px 40px hsla(0, 0%, .2)
-• Border radius
-• Border width
-• Opacity
+* Border radius
+* Border width
+* Opacity
 
 
 25% intervals:
