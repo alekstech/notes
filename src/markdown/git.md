@@ -9,6 +9,20 @@ keywords: "git, snippets"
 
 
 ```git
+git log -n 100 --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
+```
+list 100 most recent commits, one per line, with YYYY-MM-DD dates
+<br><small>%h = commit hash, %x09 = space, %an = author name, %ad = commit date, %s = commit message</small>
+
+
+```git
+git show --pretty="" --name-only abc123
+git diff-tree --no-commit-id --name-only -r abc123
+```
+list files changed in a commit. in the first command, the commit hash is optional and defaults to the last commit.
+
+
+```git
 git show-branch | grep '*' | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -n1 | sed 's/.*\[\(.*\)\].*/\1/' | sed 's/[\^~].*//'
 ```
 show parent branch
@@ -54,13 +68,6 @@ show commits that changed file
 git show a1b2c3 path/to/file.js
 ```
 show how a file changed in a commit
-
-
-```git
-git log -n 100 --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
-```
-list 100 most recent commits, one per line, with YYYY-MM-DD dates
-<br><small>%h = commit hash, %x09 = space, %an = author name, %ad = commit date, %s = commit message</small>
 
 
 ```git
