@@ -14,6 +14,14 @@ git log -n 100 --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
 list 100 most recent commits, one per line, with YYYY-MM-DD dates
 <br><small>%h = commit hash, %x09 = space, %an = author name, %ad = commit date, %s = commit message</small>
 
+```git
+git checkout master
+git log ..dev --pretty=format:"%h%x09%ad%x09%s" --date=short
+```
+list commits that a merge (a PR) from `dev` into `master` would add to `master`
+<br><small>%h = commit hash, %x09 = space, %ad = commit date, %s = commit message, --date=short = yy-MM-dd</small>
+
+
 
 ```git
 git show --pretty="" --name-only abc123
