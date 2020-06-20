@@ -9,6 +9,12 @@ keywords: "git, snippets"
 
 
 ```git
+git log --format="%aI%h"
+```
+sortable list of dates and hashes
+<br><small>%aI = ISO date, %h = commit hash</small>
+
+```git
 git log -n 100 --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
 ```
 list 100 most recent commits, one per line, with YYYY-MM-DD dates
